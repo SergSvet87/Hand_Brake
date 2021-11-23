@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Roboto:wght@400;500;700&display=swap');
+
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+/*--------------------*/
+
+body {
+	width: 100%;
+	height: 100vh;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.2;
+	color: #3B4A6B;
+	background-color: #E4E4E4;
+}
+
+/* Header start*/
+.intro {
+	width: 100%;
+	height: 755px;
+	background: url('../images/png/bgc.png') no-repeat;
+	background-size: cover;
+}
+
+.wrapper {
+	max-width: 1120px;
+	margin: 0 auto;
+}
+
+/* Navmenu start */
+.header_wrapper_navbar {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 41px;
+	margin-bottom: 100px;
+}
+
+/* Logo start */
+.header_wrapper_logo {
+	width: 192px;
+	height: 54px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-right: 388px;
+}
+
+.header_wrapper_logo_link_text {
+	font-weight: 700;
+	font-style: bold;
+	font-size: 24.68px;
+	line-height: 29px;
+	color: #25468A;
+	margin-left: 10px;
+}
+
+/* Logo end */
+
+/* Barmenu start */
+.header_wrapper_nav_list {
+	width: 385px;
+	height: 37px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.header_wrapper_nav_list_item_link {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #25468A;
+}
+
+.header_wrapper_nav_list_item_link:hover {
+	color: #5a7bbf;
+}
+
+/* Barmenu end */
+
+.header_wrapper_btn {
+	width: 116px;
+	height: 37px;
+	background-color: #FFFFFF;
+	border-radius: 24px;
+	margin-left: 32px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #14274C;
+}
+
+.header_wrapper_btn:hover {
+	background-color: #ebe5e5;
+}
+
+/* Navmenu end*/
+
+.intro_description {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 92px;
+	line-height: 108px;
+	color: #25468A;
+	margin-top: 30px;
+	margin-bottom: 8px;
+}
+
+.title_subtitle {
+	width: 544px;
+	height: 24px;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 37px;
+	margin-bottom: 32px;
+}
+
+.text {
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+	margin-bottom: 16px;
+}
+
+.intro_btn {
+	width: 256px;
+	height: 51px;
+	border-radius: 26px;
+	background: #F7BA0E;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: 0.04em;
+}
+
+.intro_description button:hover {
+	background-color: #d1a016;
+}
+
+/* Header end*/
+
+
+/* Main start */
+main {
+	background-color: #E9F5FF;
+}
+
+/* Benefits start */
+.benefits {
+	background-color: #E9F5FF;
+	padding-top: 63px;
+}
+
+.benefits_wrapper_cards {
+	display: flex;
+	justify-content: space-between;
+}
+
+.benefits_card {
+	width: 352px;
+	height: 189px;
+	background-color: #1391CE;
+	align-items: center;
+	border-radius: 8px;
+}
+
+.benefits_card_text {
+	width: 284px;
+	height: 52px;
+	margin: 68px auto;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+/* Benefits end */
+
+/* Why you will love Handbrake start */
+.love_handbrake {
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.love_handbrake_title {
+	width: 387px;
+	height: 111.83px;
+	margin: 63px auto 0;
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 121.3%;
+	text-align: center;
+	letter-spacing: 0.01em;
+	color: #1391CE;
+}
+
+.love_handbrake_label {
+	width: 160px;
+	height: 8px;
+	background: #F7BA0E;
+	margin: 0 auto;
+	margin-bottom: 96px;
+}
+
+/* built-in start */
+.love_handbrake_built-in {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 128px;
+}
+
+.love_handbrake_built-in_description {
+	margin-left: 108px;
+	box-sizing: border-box;
+}
+
+.love_handbrake_built-in_subtitle {
+	font-size: 16px;
+	line-height: 134.3%;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+	color: #25468A;
+	margin-bottom: 16px;
+}
+
+.love_handbrake_built-in_title {
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 134.3%;
+	letter-spacing: 0.01em;
+	color: #1391CE;
+	margin-bottom: 16px;
+}
+
+.love_handbrake_built-in_text {
+	width: 425px;
+	height: 144px;
+	font-size: 18px;
+	line-height: 134.3%;
+	letter-spacing: 0.02em;
+	color: #4F4F4F;
+}
+
+/* built-in end */
+
+/* supported start */
+.love_handbrake_supported {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.love_handbrake_supported_description {
+	margin-right: 96px;
+}
+
+.love_handbrake_supported_subtitle {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 134.3%;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+	color: #25468A;
+	margin-bottom: 16px;
+}
+
+.love_handbrake_supported_title {
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 134.3%;
+	letter-spacing: 0.01em;
+	color: #1391CE;
+	margin-bottom: 32px;
+}
+
+.love_handbrake_supported_text {
+	width: 448px;
+	height: 72px;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 134.3%;
+	letter-spacing: 0.02em;
+	color: #4F4F4F;
+	margin-bottom: 24px;
+}
+
+.love_handbrake_supported h6 {
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 134.3%;
+	letter-spacing: 0.02em;
+	color: #1391CE;
+	margin-bottom: 16px;
+}
+
+.love_handbrake_supported_list {
+	margin-bottom: 128px;
+}
+
+.love_handbrake_supported_list li {
+	background: url('../images/svg/check-circle.svg') left top no-repeat;
+	margin-right: 16px;
+	padding-left: 35px;
+}
+
+.love_handbrake_supported_item {
+	margin-bottom: 9px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 134.3%;
+	letter-spacing: 0.02em;
+	color: #4F4F4F;
+}
+
+/* supported end */
+
+/* features start */
+.love_handbrake_features {
+	display: flex;
+	justify-content: space-between;
+}
+
+.love_handbrake_features_description {
+	margin-left: 98px;
+}
+
+.love_handbrake_features_subtitle {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 134.3%;
+	align-items: center;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+	margin-bottom: 16px;
+	color: #25468A;
+}
+
+.love_handbrake_features_title {
+	width: 448px;
+	height: 43px;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 134.3%;
+	align-items: center;
+	letter-spacing: 0.01em;
+	color: #1391CE;
+	margin-bottom: 32px;
+}
+
+.love_handbrake_features_list {
+	margin-bottom: 128px;
+}
+
+.love_handbrake_features_item {
+	background: url('../images/svg/check-circle.svg') left top no-repeat;
+	padding-left: 35px;
+	margin-bottom: 8px;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 134.3%;
+	letter-spacing: 0.02em;
+	color: #4F4F4F;
+}
+
+/* features end */
+
+/* Why you will love Handbrake end */
+
+/* open_source start */
+.source_credits {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 65px;
+}
+
+.source {
+	width: 481px;
+	height: 152px;
+	margin-right: 96px;
+}
+
+.title {
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 121.3%;
+	align-items: center;
+	letter-spacing: 0.01em;
+	color: #1391CE;
+	margin-bottom: 16px;
+}
+
+.text {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 125.7%;
+	color: #4F4F4F;
+}
+
+.credits {
+	width: 481px;
+	height: 152px;
+}
+
+/* open_source end */
+/* Main end */
+
+/* Footer start */
+.footer {
+	width: 100%;
+	height: 144px;
+	background: #1391CE;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 134.3%;
+	letter-spacing: 0.01em;
+	color: #302E2F;
+}
+
+.footer_label {
+	width: 1216px;
+	height: 1px;
+	background: #E3E3E3;
+	margin-bottom: 30px;
+}
+
+.footer_copyright {
+	width: 1216px;
+	height: 54px;
+	margin: 0 auto;
+	padding-top: 32px;	
+}
+
+.copyright{
+	display: flex;
+	justify-content: space-between;
+}
+
+.copyright_team {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 134.3%;
+	letter-spacing: 0.01em;
+	color: #FFFFFF;
+}
+
+.copyright_talk{
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 134.3%;
+	letter-spacing: 0.01em;
+	color: #FFFFFF;
+}
+
+.copyright_team:hover, .copyright_talk:hover{
+	color: #d9cbcb;
+}
+
+/* Footer end */
